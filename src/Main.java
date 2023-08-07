@@ -4,8 +4,8 @@ public class Main {
         task2();
         task3();
         task4();
-        task5();/*
-        task6();
+        task5();
+        task6();/*
         task7(); */
     }
     public static void task1 () {
@@ -68,6 +68,21 @@ public class Main {
             System.out.println("Если возраст ребёнка равен " + age + ", то ему можно кататься на аттракционе в сопровождении взрослого");
         } else {
             System.out.println("Если возраст ребёнка равен " + age + ", то ему можно кататься на аттракционе без сопровождения взрослого");
+            System.out.println();
+        }
+    }
+    public static void task6 () {
+        System.out.println("task6");
+        int place = 10;
+        if (place <= 60) {
+            System.out.println("Есть место в вагоне сидячее");
+        }
+        else if (place > 60 && place <=102) {
+            System.out.println("Есть место в вагоне стоячее");
+        }
+        else {
+            System.out.println("Вагон уже полностью забит");
+            System.out.println();
         }
     }
 }
