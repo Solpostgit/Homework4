@@ -5,8 +5,8 @@ public class Main {
         task3();
         task4();
         task5();
-        task6();/*
-        task7(); */
+        task6();
+        task7();
     }
     public static void task1 () {
         System.out.println("task1");
@@ -82,6 +82,25 @@ public class Main {
         }
         else {
             System.out.println("Вагон уже полностью забит");
+        }
+        System.out.println();
+    }
+    public static void task7 () {
+        System.out.println("task7");
+        int one = 18;
+        int two = 15;
+        int three = 12;
+        if ((one >= two && one > three) || (one >= three && one > two)) {
+            System.out.println("Из трёх чисел one большее и равно " + one);
+        }
+        else if ((two >= one && two > three) || (two >= three && two > one)) {
+            System.out.println("Из трёх чисел two большее и равно " + two);
+        }
+        else if ((one == two && one == three) || (two == one && two == three) || (three == one && three == two)) {
+            System.out.println("Все числа одинаковы и равны " + one);
+        }
+        else {
+            System.out.println("Из трёх чисел three большее и равно " + three);
             System.out.println();
         }
     }
