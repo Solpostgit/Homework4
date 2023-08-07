@@ -3,8 +3,8 @@ public class Main {
         task1();
         task2();
         task3();
-        task4();/*
-        task5();
+        task4();
+        task5();/*
         task6();
         task7(); */
     }
@@ -59,5 +59,15 @@ public class Main {
                 System.out.println();
 
     }
-
+    public static void task5 () {
+        System.out.println("task5");
+        int age = 21;
+        if (age < 5) {
+            System.out.println("Если возраст ребёнка равен " + age + ", то ему нельзя кататься на аттракционе");
+        } else if (age >= 5 && age < 14) {
+            System.out.println("Если возраст ребёнка равен " + age + ", то ему можно кататься на аттракционе в сопровождении взрослого");
+        } else {
+            System.out.println("Если возраст ребёнка равен " + age + ", то ему можно кататься на аттракционе без сопровождения взрослого");
+        }
+    }
 }
