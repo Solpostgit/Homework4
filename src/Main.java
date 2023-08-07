@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         task1();
-        task2();/*
-        task3();
+        task2();
+        task3();/*
         task4();
         task5();
         task6();
@@ -28,4 +28,15 @@ public class Main {
             System.out.println();
         }
     }
+    public static void task3 () {
+        System.out.println("task3");
+        int speed = 60;
+        if (speed > 60) {
+            System.out.println("Если скорость " + speed + ", то придется заплатить штраф");
+        } else {
+            System.out.println("Если скорость " + speed + ", то можно ездить спокойно");
+            System.out.println();
+        }
+    }
+
 }
