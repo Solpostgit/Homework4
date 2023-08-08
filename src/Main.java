@@ -61,15 +61,15 @@ public class Main {
     }
     public static void task5 () {
         System.out.println("task5");
-        int age = 21;
+        int age = 16;
         if (age < 5) {
-            System.out.println("Если возраст ребёнка равен " + age + ", то ему нельзя кататься на аттракционе");
+            System.out.printf("Если возраст ребёнка равен %d, то ему нельзя кататься на аттракционе\n", age);
         } else if (age >= 5 && age < 14) {
-            System.out.println("Если возраст ребёнка равен " + age + ", то ему можно кататься на аттракционе в сопровождении взрослого");
+            System.out.printf("Если возраст ребёнка равен %d, то ему можно кататься на аттракционе в сопровождении взрослого\n", age);
         } else {
-            System.out.println("Если возраст ребёнка равен " + age + ", то ему можно кататься на аттракционе без сопровождения взрослого");
-            System.out.println();
+            System.out.printf("Если возраст ребёнка равен %d, то ему можно кататься на аттракционе без сопровождения взрослого\n", age);
         }
+        System.out.println();
     }
     public static void task6 () {
         System.out.println("task6");
